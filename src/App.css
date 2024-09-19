@@ -1,0 +1,96 @@
+body {
+  background-image: url('https://images.pexels.com/photos/28286847/pexels-photo-28286847/free-photo-of-guggenheim-museum.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* custom css */
+
+#income-show{
+  background-color: #28B9B5;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+#expense-show{
+  background-color: #FF5049;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.totalClass{
+  position: relative;
+  left: 30rem;
+}
+.totalIncomeSpan{
+  color: white;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.totalExpenseSpan{
+  color: white;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.totalIncomeP{
+  font-size: 15px;
+  color: #444;
+  margin-top: 2px;
+
+}
+.totalExpenseP{
+  font-size: 15px;
+  color: #444;
+  margin-top: 2px;
+
+
+}
+.item__percentage{
+  color: #FF5049;
+  font-size: 11px;
+  background-color: #FFDAD9;
+  padding: 3px;
+  border-radius: 3px;
+  width: 32px;
+  text-align: center;
+
+}
+.actions{
+  padding: '10px';
+  display: 'flex';
+  gap: 3px;
+}
+.transactionInput{
+  position: relative;
+  left: 18rem;
+}
+.green{
+  color:#28B9B5;
+  font-weight:600 !important;
+  font-size: 1.5rem !important;
+  text-align: center;
+}
+.red{
+  color:#FF5049;
+  font-weight:600 !important;
+  font-size: 1.5rem !important;
+  text-align: center;
+}
+
+.form_input{
+  border-left: 5px solid #63f663;
+  border-radius: 7px;
+}
+.income_card{
+
+  border-right: 5px solid #28B9B5;
+  border-radius: 7px;
+}
+.expense_card{
+
+  border-right: 5px solid #FF5049;
+  border-radius: 7px;
+
+}
