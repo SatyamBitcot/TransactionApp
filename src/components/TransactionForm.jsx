@@ -54,9 +54,18 @@ const TransactionForm = ({
     if (type === "expense" && stateValue.total <= 0) {
       toast.error(
         `Your balance is ${stateValue.total}. You cannot add expenses.`
-      );
+      )
+     
       return;
+
     }
+    if(stateValue.total > 0 && type==='expense' && value >stateValue.total)
+      {
+        toast.error(
+        `Your balance is ${stateValue.total}. You cannot add expenses because expense is greater than income`
+      )
+      return;
+      }
 
     handleAddTransaction();
     setDescription("");
